@@ -30,7 +30,14 @@
 		<script>
 			// Wait for device API libraries to load
 			//
+			var maghigh;
+			var maglow;
+			var accelArray = [];
 			var watchID = null;
+			var sampleSize = 50; //This is how many samples are compared
+			var samplingFrequency=5;//Miliseconds between samples
+			var threshold=4;
+			var magnitude;
 			document.addEventListener("deviceready", onDeviceReady, false);
 
 			// device APIs are available
@@ -44,7 +51,7 @@
 			function startWatch() {
 
 				// Update rate
-				var options = { frequency: 20 };
+				var options = { frequency: samplingFrequency };
 
 				watchID = navigator.accelerometer.watchAcceleration(onSuccess, onError, options);
 			}
@@ -61,11 +68,38 @@
 			// onSuccess: Get a snapshot of the current acceleration
 			//
 			function onSuccess(acceleration) {
+				//store values from the accelerometer
+				var counter = accelArray.push(acceleration.x);
+				//once ten values are stored
+				//find the highest
+				if (counter == sampleSize){
+					for (i=0; i<accelArray.length-1; i++){
+						if (i == 0){
+							high = accelArray[0];
+						}
+						else if(accelArray[i]>high){
+							high = accelArray[i]
+						}
+					}
+					for (i=0; i< accelArray.length-1; i++){
+						if (i == 0){
+							low = accelArray[0];
+						}
+						else if(accelArray[i]< low){
+							low = accelArray[i]
+						}
+					}
+					
+					magnitude = Math.abs(high - low);
+					accelArray.shift();
+				}
+				
 				var element = document.getElementById('accelerometer');
-				element.innerHTML = 'Acceleration X: ' + acceleration.x         + '<br />' +
-									'Acceleration Y: ' + acceleration.y         + '<br />' +
-									'Acceleration Z: ' + acceleration.z         + '<br />' +
-									'Timestamp: '      + acceleration.timestamp + '<br />';
+				if (magnitude > threshold){
+					element.innerHTML = "IT IS HAPPENING!!!!";
+				} else{
+				element.innerHTML = "Acceleration array = "+accelArray+"<br/><br/> Magnitude = "+magnitude;
+				}
 			}
 
 			// onError: Failed to get the acceleration
@@ -107,12 +141,12 @@
 		
 		
 		-->
-            <h1>Apache Cordova</h1>
+            <h1>Let's moove around a little.</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready, to Party</p>
-				<p id="accelerometer"></p>
             </div>
+			<p id="accelerometer"></p>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
