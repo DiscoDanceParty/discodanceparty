@@ -24,24 +24,12 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#E4E4E4;
-    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image:-webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(0, #A7A7A7),
-        color-stop(0.51, #E4E4E4)
-    );
-    background-attachment:fixed;
+    
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;
     height:100%;
     margin:0px;
     padding:0px;
-    text-transform:uppercase;
     width:100%;
 }
 
@@ -69,47 +57,63 @@ body {
     }
 }
 
-h1 {
-    font-size:24px;
-    font-weight:normal;
-    margin:0px;
-    overflow:visible;
-    padding:0px;
-    text-align:center;
+
+h1{
+	font-size: 12px;
+
 }
 
-.event {
-    border-radius:4px;
-    -webkit-border-radius:4px;
-    color:#FFFFFF;
-    font-size:12px;
-    margin:0px 30px;
-    padding:2px 0px;
+.trackSelect
+{
+	background-color: #39bf80;
+	cursor: pointer;
+	width: 35%;
 }
 
-.event.listening {
-    background-color:#333333;
-    display:block;
+#theTable{
+	width:100%;
+	margin: auto;
 }
 
-.event.received {
-    background-color:#4B946A;
-    display:none;
+
+
+body {
+  background: #BF3978;
+  margin: 60px auto;
+  width: 302px;
+  text-align: center;
 }
 
-@keyframes fade {
-    from { opacity: 1.0; }
-    50% { opacity: 0.4; }
-    to { opacity: 1.0; }
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  
+  to {
+    -webkit-filter: hue-rotate(360deg);
+  }
 }
- 
-@-webkit-keyframes fade {
-    from { opacity: 1.0; }
-    50% { opacity: 0.4; }
-    to { opacity: 1.0; }
+.discoball {
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-name: hue;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  
+  background: lightgrey;
+  border-radius: 200px;
+  border: 1px solid lightgrey;
+  height: 302px;
+  width: 302px;
+  box-shadow: 0 3px 200px -3px lightgrey;
 }
- 
-.blink {
-    animation:fade 3000ms infinite;
-    -webkit-animation:fade 3000ms infinite;
+.hanger {
+  background: #fff;
+  width: 3px;
+  border-right: 2px solid #999;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 50%;
 }
+
