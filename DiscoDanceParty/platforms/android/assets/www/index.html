@@ -34,8 +34,8 @@
 			var maglow;
 			var accelArray = [];
 			var watchID = null;
-			var sampleSize = 50; //This is how many samples are compared
-			var samplingFrequency=5;//Miliseconds between samples
+			var sampleSize = 20; //This is how many samples are compared
+			var samplingFrequency=50;//Miliseconds between samples
 			var threshold=6;
 			var magnitude;
 			document.addEventListener("deviceready", onDeviceReady, false);
@@ -98,6 +98,7 @@
 				if (magnitude > threshold){
 					document.body.setAttribute("style", "background-color:#ff0000;");
 				} else{
+				
 				document.body.setAttribute("style", "background-color:#0000ff;");
 				}
 			}
