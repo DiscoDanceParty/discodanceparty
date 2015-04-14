@@ -36,7 +36,7 @@
 			var watchID = null;
 			var sampleSize = 50; //This is how many samples are compared
 			var samplingFrequency=5;//Miliseconds between samples
-			var threshold=4;
+			var threshold=6;
 			var magnitude;
 			document.addEventListener("deviceready", onDeviceReady, false);
 
@@ -98,7 +98,7 @@
 				if (magnitude > threshold){
 					element.innerHTML = "IT IS HAPPENING!!!!";
 				} else{
-				element.innerHTML = "Acceleration array = "+accelArray+"<br/><br/> Magnitude = "+magnitude;
+				element.innerHTML = "move more, buddy!";
 				}
 			}
 
