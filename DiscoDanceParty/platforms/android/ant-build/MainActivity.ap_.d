@@ -1,75 +1,81 @@
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\ant-build\MainActivity.ap_ \
- : C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\res\drawable\icon.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-hdpi\icon.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-land-hdpi\screen.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-land-ldpi\screen.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-land-mdpi\screen.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-land-xhdpi\screen.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-ldpi\icon.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-mdpi\icon.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-port-hdpi\screen.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-port-ldpi\screen.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-port-mdpi\screen.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-port-xhdpi\screen.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-xhdpi\icon.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\res\values\strings.xml \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\res\xml\config.xml \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable\icon.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-hdpi\icon.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-land-hdpi\screen.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-land-ldpi\screen.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-land-mdpi\screen.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-land-xhdpi\screen.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-ldpi\icon.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-mdpi\icon.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-port-hdpi\screen.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-port-ldpi\screen.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-port-mdpi\screen.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-port-xhdpi\screen.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-xhdpi\icon.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\_where-is-www.txt \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\cordova.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\cordova_plugins.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\css \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\img \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\index.html \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\index2.html \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\css\index.css \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\img\logo.png \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\js\index.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.device-motion \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.media \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.device-motion\www \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.device-motion\www\Acceleration.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.device-motion\www\accelerometer.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\android \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\DirectoryEntry.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\DirectoryReader.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\Entry.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\File.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\FileEntry.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\FileError.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\FileReader.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\FileSystem.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\fileSystemPaths.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\fileSystems-roots.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\fileSystems.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\FileUploadOptions.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\FileUploadResult.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\FileWriter.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\Flags.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\LocalFileSystem.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\Metadata.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\ProgressEvent.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\requestFileSystem.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\resolveLocalFileSystemURI.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\android\FileSystem.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.media\www \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.media\www\Media.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.media\www\MediaError.js \
-C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\ant-build\AndroidManifest.xml \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\MainActivity.ap_ \
+ : C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\res\drawable\icon.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-hdpi\icon.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-land-hdpi\screen.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-land-ldpi\screen.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-land-mdpi\screen.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-land-xhdpi\screen.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-ldpi\icon.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-mdpi\icon.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-port-hdpi\screen.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-port-ldpi\screen.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-port-mdpi\screen.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-port-xhdpi\screen.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\res\drawable-xhdpi\icon.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\res\values\strings.xml \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\res\xml\config.xml \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable\icon.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-hdpi\icon.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-land-hdpi\screen.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-land-ldpi\screen.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-land-mdpi\screen.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-land-xhdpi\screen.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-ldpi\icon.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-mdpi\icon.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-port-hdpi\screen.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-port-ldpi\screen.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-port-mdpi\screen.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-port-xhdpi\screen.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\res\drawable-xhdpi\icon.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\_where-is-www.txt \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\audio \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\cordova.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\cordova_plugins.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\css \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\img \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\index.html \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\index2.html \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\index3.html \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\audio\dontStop.mp3 \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\audio\householdGoods.m4a \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\audio\iCantGoForThat.mp3 \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\audio\neverTooMuch.mp3 \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\css\index.css \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\img\dball.png \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\js\index.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.device-motion \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.media \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.device-motion\www \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.device-motion\www\Acceleration.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.device-motion\www\accelerometer.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\android \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\DirectoryEntry.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\DirectoryReader.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\Entry.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\File.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\FileEntry.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\FileError.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\FileReader.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\FileSystem.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\fileSystemPaths.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\fileSystems-roots.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\fileSystems.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\FileUploadOptions.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\FileUploadResult.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\FileWriter.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\Flags.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\LocalFileSystem.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\Metadata.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\ProgressEvent.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\requestFileSystem.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\resolveLocalFileSystemURI.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file\www\android\FileSystem.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.media\www \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.media\www\Media.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.media\www\MediaError.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\AndroidManifest.xml \

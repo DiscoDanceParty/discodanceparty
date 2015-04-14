@@ -25,7 +25,7 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
+        <title>Disco Dance Party</title>
 		<!-- Phil's code -->
 		<script>
 			// Wait for device API libraries to load
@@ -44,6 +44,7 @@
 			//
 			function onDeviceReady() {
 				startWatch();
+				//playAudio("/android_asset/www/audio/iCantGoForThat.mp3");
 			}
 
 			// Start watching the acceleration
@@ -53,7 +54,7 @@
 				// Update rate
 				var options = { frequency: samplingFrequency };
 
-				watchID = navigator.accelerometer.watchAcceleration(onSuccess, onError, options);
+				watchID = navigator.accelerometer.watchAcceleration(accOnSuccess, accOnError, options);
 			}
 
 			// Stop watching the acceleration
@@ -67,7 +68,7 @@
 
 			// onSuccess: Get a snapshot of the current acceleration
 			//
-			function onSuccess(acceleration) {
+			function accOnSuccess(acceleration) {
 				//store values from the accelerometer
 				var counter = accelArray.push(acceleration.x);
 				//once ten values are stored
@@ -96,46 +97,47 @@
 				
 				
 				if (magnitude > threshold){
-					document.body.setAttribute("style", "background-color:#ff0000;");
-				} else{
+					document.body.setAttribute("style", "background-color:#bf3978;");
+					playAudio(tracks[selectedTrack]);
+				}
 				
-				document.body.setAttribute("style", "background-color:#0000ff;");
+				else{
+				
+					
+					if (my_media != null){
+						document.body.setAttribute("style", "background-color:#D1D1D1;");
+						pauseAudio();
+					}
 				}
 			}
 
 			// onError: Failed to get the acceleration
 			//
-			function onError() {
-				alert('onError!');
+			function accOnError() {
+				alert('onError: Failed to get the acceleration');
 			}
 		
 		<!-- end phil's code
 		-->
+		
+		
 		<!-- Neil's code -->
-		// Wait for device API libraries to load
-        //
-        document.addEventListener("deviceready", onDeviceReady, false);
-
-        // device APIs are available
-        //
-        function onDeviceReady() {
-           
-        }
-
+		
         // Audio player
-  
-        var my_media;
+		
+        var my_media = null;
         var mediaTimer = null;
 		var isPlaying = false;
 		var isStopped = true;
 		var resumePosition = 0;
 		
-		var tracks = ['/android_asset/www/audio/el/iCantGoForThat.mp3', '/android_asset/www/audio/el/neverTooMuch.mp3','/android_asset/www/audio/el/householdGoods.m4a','/android_asset/www/audio/el/dontStop.mp3'];
+		var tracks = ['/android_asset/www/audio/iCantGoForThat.mp3', '/android_asset/www/audio/neverTooMuch.mp3','/android_asset/www/audio/householdGoods.m4a','/android_asset/www/audio/dontStop.mp3'];
 		var selectedTrack = 0;
 		
 		function changeTrack(t){
-			if(isStopped = true){
+			if(isStopped == true){
 				selectedTrack = t;
+				document.getElementById('display_track').innerHTML = "Current track: "+ selectedTrack;
 			}
 		}
 		
@@ -145,14 +147,15 @@
 			if (isPlaying == false){
 				if(my_media == null){
 					// Create Media object from src
-					my_media = new Media (src , onSuccess, onError);
+					my_media = new Media (src , mediaOnSuccess, mediaOnError);
 					playAudio(src);
 				}
 				
 				else{
 					// Play audio
-					my_media.play();
 					my_media.seekTo(resumePosition);
+					my_media.play();
+					
 					isPlaying = true;
 					isStopped = false;
 
@@ -188,7 +191,7 @@
         // Pause audio
         //
         function pauseAudio() {
-            if (my_media) {
+            if (my_media && isPlaying == true) {
 			
 				
                 my_media.pause();
@@ -203,29 +206,31 @@
         // Stop audio
         //
         function stopAudio() {
-            if (my_media) {
+            if (my_media && isPlaying == false) {
                 my_media.stop();
+				clearInterval(mediaTimer);
+				mediaTimer = null;
+				my_media = null;
+				resumePosition = 0;
+				setAudioPosition(0);
+				isPlaying = false;
+				isStopped = true;
+				document.body.setAttribute("style", "background-color:#000;");
 				
             }
-            clearInterval(mediaTimer);
-            mediaTimer = null;
-			my_media = null;
-			resumePosition = 0;
-			setAudioPosition(0);
-			isPlaying = false;
-			isStopped = true;
+            
 			
         }
 
         // onSuccess Callback
         //
-        function onSuccess() {
+        function mediaOnSuccess() {
             console.log("playAudio():Audio Success");
         }
 
         // onError Callback
         //
-        function onError(error) {
+        function mediaOnError(error) {
             alert('code: '    + error.code    + '\n' +
                   'message: ' + error.message + '\n');
         }
@@ -235,6 +240,9 @@
         function setAudioPosition(position) {
             document.getElementById('audio_position').innerHTML = position;
         }
+
+  
+        
 		
 		<!-- end Neil's code-->
 		<!-- Gerge's code -->	
@@ -249,30 +257,32 @@
     </head>
     <body>
         <!-- <div id="accelerometer" style="background-color:#0000ff; width:100%; height:100%; position:absolute; top:0; left:0;"></div> -->
-		<a href="#" class="btn large" onclick="playAudio(tracks[selectedTrack]);">Play Audio</a><br/>
-				
-			<a href="#" class="btn large" onclick="pauseAudio();">Pause Playing Audio</a><br/>
-			
-			<a href="#" class="btn large" onclick="stopAudio();">Stop Playing Audio</a><br/>
-			
-			<p id="audio_position"></p>
-			
-			<div class="hanger"></div>
-			<div class="discoball">
-			  <img src="img/dball.png" alt="A Picture of a Disco Ball">
-			</div>
-			
-			
-			<table id="theTable">
+		
+		<div class="hanger"></div>
+		<div class="discoball">
+			<img src="img/dball.png" alt="A Picture of a Disco Ball" onclick="stopAudio();">
+		</div>
+
+		<!-- <a href="#" class="btn large" onclick="playAudio(tracks[selectedTrack]);">Play Audio</a> -->
+		<!-- <a href="#" class="btn large" onclick="pauseAudio();">Pause Playing Audio</a> -->
+		<!-- <a href="#" class="btn large" onclick="stopAudio();">Stop Playing Audio</a> -->
+		<p id="audio_position">0</p>
+		<p id="display_track">Track</p>
+		
+		<table id="theTable">
 			  <tr>
-				<td><div class="trackSelect" onclick="changeTrack(0)"><h1>Smooth and Sexy</h1></div></td>
-				<td><div class="trackSelect fR" onclick="changeTrack(1)"><h1>Who got the funk?</h1></div></td> 
+				<td><div class="trackSelect" onclick="changeTrack(0)"><h1>Pop</h1></div></td>
+				<td><div class="trackSelect" onclick="changeTrack(1)"><h1>Funk</h1></div></td> 
 			  </tr>
 			  <tr>
-				<td><div class="trackSelect" onclick="changeTrack(2)"><h1>Shiny Jackets</h1></div></td>
-				<td><div class="trackSelect fR" onclick="changeTrack(3)"><h1>The King of Pop</h1></div></td> 
+				<td><div class="trackSelect" onclick="changeTrack(2)"><h1>Modern</h1></div></td>
+				<td><div class="trackSelect" onclick="changeTrack(3)"><h1>MJ</h1></div></td> 
 			  </tr>
-			</table>
+		</table>
+		
+			
+			
+			
 		<!-- Phil's code
 		
 		

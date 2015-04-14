@@ -67,11 +67,12 @@ h1{
 {
 	background-color: #39bf80;
 	cursor: pointer;
-	width: 35%;
+	font-size: 24px;
+	font-weight: bold;
 }
 
 #theTable{
-	width:100%;
+	width:80%;
 	margin: auto;
 }
 
@@ -106,6 +107,7 @@ body {
   height: 302px;
   width: 302px;
   box-shadow: 0 3px 200px -3px lightgrey;
+  cursor: pointer;
 }
 .hanger {
   background: #fff;
@@ -115,5 +117,12 @@ body {
   position: absolute;
   top: 0;
   left: 50%;
+}
+
+#audio_position, #display_track{
+	font-size: 24px;
+	color: #000;
+	font-weight: bold;
+
 }
 
