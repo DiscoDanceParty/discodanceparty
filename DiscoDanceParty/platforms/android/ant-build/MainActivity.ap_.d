@@ -34,6 +34,7 @@ C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\plat
 C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\css \
 C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\img \
 C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\index.html \
+C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\index2.html \
 C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\js \
 C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins \
 C:\mobiledevelopment\cs7025\discodanceparty\discodanceparty\DiscoDanceParty\platforms\android\assets\www\css\index.css \
