@@ -34,7 +34,7 @@
 			var maglow;
 			var accelArray = [];
 			var watchID = null;
-			var sampleSize = 20; //This is how many samples are compared
+			var sampleSize = 10; //This is how many samples are compared
 			var samplingFrequency=50;//Miliseconds between samples
 			var threshold=6;
 			var magnitude;
@@ -145,7 +145,10 @@
         function playAudio(src){
 			
 			if (isPlaying == false){
-				if(my_media == null){
+				if (mediaTimer){
+					my_media.seekTo(resumePosition*1000);	
+					}
+				if(my_media === null){
 					// Create Media object from src
 					my_media = new Media (src , mediaOnSuccess, mediaOnError);
 					playAudio(src);
@@ -153,22 +156,23 @@
 				
 				else{
 					// Play audio
-					my_media.seekTo(resumePosition);
+					//my_media.seekTo(10000);
 					my_media.play();
 					
 					isPlaying = true;
 					isStopped = false;
 
 					// Update my_media position every second
-					if (mediaTimer == null){
+					if (mediaTimer === null){
 						mediaTimer = setInterval(function(){
 							// get my_media position
 							my_media.getCurrentPosition(
 								// success callback
 								function(position){
 									if (position > -1) {
-										setAudioPosition((position) + " sec");
 										resumePosition = position;
+										setAudioPosition((resumePosition) + " sec");
+										
 									}
 								},
 								// error callback
@@ -177,9 +181,11 @@
 									setAudioPosition("Error: " + e);
 								}
 							);
-						}, 1000);
+						}, 500);
 					}
-				
+					
+					
+					
 				}
 				
 			}
