@@ -11,6 +11,9 @@
     <feature name="Media">
         <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
     </feature>
+    <feature name="Insomnia">
+        <param name="android-package" value="nl.xservices.plugins.Insomnia" />
+    </feature>
     <name>DiscoDanceParty</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
