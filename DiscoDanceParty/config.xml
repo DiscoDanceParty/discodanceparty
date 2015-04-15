@@ -10,4 +10,6 @@
     <content src="index.html" />
     <access origin="*" />
 	<preference name="Orientation" value="portrait" />
+	<preference name="DisallowOverscroll" value="true"/>
+	<icon src="/www/img/icon.png" platform="android" width="57" height="57" density="mdpi" />
 </widget>
