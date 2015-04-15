@@ -71,7 +71,7 @@
 			//
 			function accOnSuccess(acceleration) {
 				//store values from the accelerometer
-				var counter = accelArray.push(acceleration.x);
+				var counter = accelArray.push((acceleration.x+acceleration.y+acceleration.z)/3);
 				//once ten values are stored
 				//find the highest
 				if (counter == sampleSize){
