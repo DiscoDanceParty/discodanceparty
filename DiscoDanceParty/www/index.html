@@ -44,7 +44,8 @@
 			//
 			function onDeviceReady() {
 				startWatch();
-				//playAudio("/android_asset/www/audio/iCantGoForThat.mp3");
+				document.addEventListener("pause", pauseHandler, false);
+				document.addEventListener("resume", resumeHandler, false);
 			}
 
 			// Start watching the acceleration
@@ -96,8 +97,9 @@
 				}
 				
 				
-				if (magnitude > threshold){
-					document.body.setAttribute("style", "background-color:#bf3978;");
+				if ( magnitude > threshold){
+					//document.body.setAttribute("style", "background-color:#bf3978;");
+					document.body.setAttribute("class", "flash");
 					playAudio(tracks[selectedTrack]);
 				}
 				
@@ -105,6 +107,7 @@
 				
 					
 					if (my_media != null){
+						document.body.setAttribute("class", "");
 						document.body.setAttribute("style", "background-color:#D1D1D1;");
 						pauseAudio();
 					}
@@ -144,7 +147,7 @@
 		
         function playAudio(src){
 			
-			if (isPlaying == false){
+			if( isPlaying === false ){
 				if (mediaTimer){
 					my_media.seekTo(resumePosition*1000);	
 					}
@@ -182,17 +185,11 @@
 								}
 							);
 						}, 500);
-					}
-					
-					
-					
+					}	
 				}
 				
 			}
         }
-		
-		
-		
 		
         // Pause audio
         //
@@ -200,7 +197,6 @@
             if (my_media && isPlaying == true) {
                 my_media.pause();
 				isPlaying = false;
-				
             }
         }
 
@@ -217,10 +213,7 @@
 				isPlaying = false;
 				isStopped = true;
 				document.body.setAttribute("style", "background-color:#000;");
-				
-            }
-            
-			
+            }	
         }
 
         // onSuccess Callback
@@ -239,10 +232,17 @@
         // Set audio position
         //
         function setAudioPosition(position) {
-            document.getElementById('audio_position').innerHTML = position;
+			var calCount = getCalories(position);
+            document.getElementById('audio_position').innerHTML = calCount;
         }
 
-  
+		function pauseHandler(){
+			
+		}
+		
+		function resumeHandler(){
+			
+		}
         
 		
 		<!-- end Neil's code-->
@@ -251,6 +251,13 @@
 		
 		<!-- End Gerge's code -->	
 		<!-- Trasa's code-->
+		
+		function getCalories(x) {
+           var calories = parseFloat(x)*0.1;
+		   calories = calories.toFixed(2);
+        return calories;
+
+        }
 		
 		
 		<!--End Trasa's code-->
