@@ -28,9 +28,6 @@
         <title>Disco Dance Party</title>
 		<!-- Phil's code -->
 		<script>
-			document.body.addEventListener('touchmove', function(event) {
-				event.preventDefault();
-				}, false); 
 			// Wait for device API libraries to load
 			//
 			var maghigh;
@@ -73,7 +70,7 @@
 			//
 			function accOnSuccess(acceleration) {
 				//store values from the accelerometer
-				var counter = accelArray.push((acceleration.x+acceleration.y+acceleration.z)/3);
+				var counter = accelArray.push(acceleration.x+acceleration.y+acceleration.z);
 				//once ten values are stored
 				//find the highest
 				if (counter == sampleSize){
