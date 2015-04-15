@@ -127,3 +127,59 @@ body {
 
 }
 
+.flash{
+	-webkit-animation-name: flashingAnimation; /* Chrome, Safari, Opera */
+	-webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+	-webkit-animation-iteration-count: infinite;
+    animation-name: flashingAnimation;
+    animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes flashingAnimation {
+    0% {background-color: red;}
+    5% {background-color: yellow;}
+	10%{background-color: green;}
+	15%{background-color: blue;}
+	20%{background-color: white;}
+	25%{background-color: aqua;}
+	30%{background-color: fuscia;}
+	35%{background-color: gray;}
+	40%{background-color: lime;}
+	45%{background-color: maroon;}
+	50%{background-color: navy;}
+	55%{background-color: white;}
+	60%{background-color: olive;}
+	65%{background-color: orange;}
+	70%{background-color: purple;}
+	75%{background-color: silver;}
+	80%{background-color: teal;}
+	85%{background-color: white;}
+	90%{background-color: aqua;}
+	95%{background-color: black;}
+	100%{background-color: lime;}
+}
+
+@keyframes flashingAnimation {
+    0% {background-color: red;}
+    5% {background-color: yellow;}
+	10%{background-color: green;}
+	15%{background-color: blue;}
+	20%{background-color: white;}
+	25%{background-color: aqua;}
+	30%{background-color: fuscia;}
+	35%{background-color: gray;}
+	40%{background-color: lime;}
+	45%{background-color: maroon;}
+	50%{background-color: navy;}
+	55%{background-color: white;}
+	60%{background-color: olive;}
+	65%{background-color: orange;}
+	70%{background-color: purple;}
+	75%{background-color: silver;}
+	80%{background-color: teal;}
+	85%{background-color: white;}
+	90%{background-color: aqua;}
+	95%{background-color: black;}
+	100%{background-color: lime;}
+}
