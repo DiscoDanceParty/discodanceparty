@@ -28,6 +28,7 @@
         <title>Disco Dance Party</title>
 		<!-- Phil's code -->
 		<script>
+			//screen.lockOrientation('landscape');
 			// Wait for device API libraries to load
 			//
 			var maghigh;
@@ -156,7 +157,7 @@
 				
 				else{
 					// Play audio
-					//my_media.seekTo(10000);
+					
 					my_media.play();
 					
 					isPlaying = true;
@@ -198,13 +199,8 @@
         //
         function pauseAudio() {
             if (my_media && isPlaying == true) {
-			
-				
                 my_media.pause();
-				
 				isPlaying = false;
-				
-				
 				
             }
         }
