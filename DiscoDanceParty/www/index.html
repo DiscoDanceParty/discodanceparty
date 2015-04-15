@@ -28,7 +28,9 @@
         <title>Disco Dance Party</title>
 		<!-- Phil's code -->
 		<script>
-			//screen.lockOrientation('landscape');
+			document.body.addEventListener('touchmove', function(event) {
+				event.preventDefault();
+				}, false); 
 			// Wait for device API libraries to load
 			//
 			var maghigh;
