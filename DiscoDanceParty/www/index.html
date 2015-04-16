@@ -25,7 +25,13 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Disco Dance Party</title>
+        
+			<script src="jquerymobile/jquery-1.11.2.min.js"></script>
+			<script src="jquerymobile/jquery.mobile-1.4.5.min.js"></script>
+			<link rel="stylesheet" href="jquerymobile/jquery.mobile.structure-1.4.5.css">
+		
+		
+		<title>Disco Dance Party</title>
 		<!-- Phil's code -->
 		<script>
 			// Wait for device API libraries to load
@@ -38,7 +44,9 @@
 			var samplingFrequency=50;//Miliseconds between samples
 			var threshold=6;
 			var magnitude;
+			var calories=0;
 			var screenAwake = false;
+			var trackColours = ["#9b59b6","#e67e22","#2c3e50","#1abc9c"]
 			document.addEventListener("deviceready", onDeviceReady, false);
 
 			// device APIs are available
@@ -99,12 +107,14 @@
 				
 				
 				if ( magnitude > threshold ){
+					calories = calories + samplingFrequency/1000;
 					//document.body.setAttribute("style", "background-color:#bf3978;");
+					$( "#sidePanel" ).panel( "close" );
 					document.body.setAttribute("class", "flash");
 					playAudio(tracks[selectedTrack]);
 					if (screenAwake === false){
-					window.plugins.insomnia.keepAwake();
-					screenAwake = true;
+						window.plugins.insomnia.keepAwake();
+						screenAwake = true;
 					}
 				}
 				
@@ -149,6 +159,8 @@
 		var selectedTrack = 0;
 		
 		function changeTrack(t){
+			stopAudio();
+			document.body.setAttribute("style", "background-color:"+trackColours[t]+";");
 			if(isStopped == true){
 				selectedTrack = t;
 				
@@ -192,6 +204,7 @@
 								function(position){
 									if (position > -1) {
 										resumePosition = position;
+										
 										setAudioPosition((resumePosition) + " sec");
 										
 									}
@@ -230,7 +243,7 @@
 				setAudioPosition(0);
 				isPlaying = false;
 				isStopped = true;
-				document.body.setAttribute("style", "background-color:#000;");
+				document.body.setAttribute("style", "background-color:#3498db;");
             }	
         }
 
@@ -250,8 +263,8 @@
         // Set audio position
         //
         function setAudioPosition(position) {
-			var calCount = getCalories(position);
-            document.getElementById('calCount').innerHTML = "Calories burnt: " + calCount;
+			var calCount = getCalories(calories);
+            document.getElementById('calCount').innerHTML = "Calories burned: " + calCount;
         }
 
 		function pauseHandler(){
@@ -265,7 +278,7 @@
 				setAudioPosition(0);
 				isPlaying = false;
 				isStopped = true;
-				document.body.setAttribute("style", "background-color:#000;");
+				document.body.setAttribute("style", "background-color:#BF3978;");
 			}
 			stopWatch();
 		}
@@ -297,50 +310,39 @@
 		</script>
     </head>
     <body style="overflow:hidden;">
-        
+        <div data-role="page" id="DPPMain">
+			<a id= "optionsLink" href="#sidePanel" class="ui-btn ui-icon-bars ui-btn-icon-left" onclick="stopAudio();">Options</a>
+			<div data-role="panel" id="sidePanel" data-display="overlay" style="background-color:#27ae60;">
+					<ul data-role="listview" data-theme="b">
+					<div data-role="header">
+						<h1> Options </h1>
+						<a href="#" data-rel="close" class="ui-btn-right ui-btn-icon-right">Close</a>
+					</div>
+					
+						<li class="list-divider"data-role="list-divider"><h2>Dancing Intensity</h2></li>
+						<li data-icon="false"><a href="#" onclick="threshold=6">Low</a></li>
+						<li data-icon="false"><a href="#" onclick="threshold=10">Medium</a></li>
+						<li data-icon="false"><a href="#" onclick="threshold=15">High</a></li>
+						<li class="list-divider" data-role="list-divider"><h2>Choose Track</h2></li>
+						<li data-icon="false"><a href="#" onclick="changeTrack(0)">Pop</a></li>
+						<li data-icon="false"><a href="#" onclick="changeTrack(1)">Funk</a></li>
+						<li data-icon="false"><a href="#" onclick="changeTrack(2)">Modern</a></li>
+						<li data-icon="false"><a href="#" onclick="changeTrack(3)">MJ</a></li>
+						
+					</ul>
+					
+			</div><!-- /panel -->
 		
-		<div class="hanger"></div>
-		<div class="discoball">
-			<img src="img/dball.png" alt="A Picture of a Disco Ball" onclick="stopAudio();">
-		</div>
+			<div class="hanger"></div>
+			<div class="discoball">
+				<img src="img/dball.png" alt="A Picture of a Disco Ball" >
+			</div>
 
-		<div id="userInfoDiv">
-			<p id="calCount">Calories burnt: 0</p>
+			<div id="userInfoDiv">
+				<p id="calCount">Calories burned: 0</p>
+			</div>
+			<script type="text/javascript" src="cordova.js"></script>
+			<script type="text/javascript" src="js/index.js"></script> 
 		</div>
-		
-		<div id="selectTrackDiv">
-			<table id="theTable">
-				  <tr>
-					<td><div id="divTrack0" class="trackSelect" onclick="changeTrack(0)">Pop</div></td>
-					<td><div id="divTrack1" class="trackSelect" onclick="changeTrack(1)">Funk</div></td> 
-				  </tr>
-				  <tr>
-					<td><div id="divTrack2" class="trackSelect" onclick="changeTrack(2)">Modern</div></td>
-					<td><div id="divTrack3" class="trackSelect" onclick="changeTrack(3)">MJ</div></td> 
-				  </tr>
-			</table>
-		</div>
-		
-			
-			
-			
-		<!-- Phil's code
-		
-		
-		-->
-		<!-- Neil's code
-		
-		
-		-->
-		<!-- Gerge's code
-		
-		
-		-->		
-		<!-- Trasa's code
-		
-		
-		-->
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script> 
-    </body>
+	</body>
 </html>
