@@ -35,7 +35,7 @@ body {
 	overflow:hidden;
 }
 div{
-overflow:hidden;
+	overflow:hidden;
 }
 
 
@@ -65,72 +65,33 @@ overflow:hidden;
 
 
 #optionsLink{
-display:block;
-left:0;
-padding:0;
-border-radius:13px;
-width:150px;
-padding-top:12px;
-padding-bottom:12px;
-background-color:#27ae60;
-color:#fff;
-text-decoration:none;
+	display:block;
+	left:0;
+	padding:0;
+	border-radius:13px;
+	width:150px;
+	padding-top:12px;
+	padding-bottom:12px;
+	background-color:#27ae60;
+	color:#fff;
+	text-decoration:none;
 }
 
 
 
 ul{
-background-color:#27ae60;
-
+	background-color:#27ae60;
 }
 ul li a{
-color:#000;
-text-decoration:none;
+	color:#000;
+	text-decoration:none;
 }
 .list-divider{
-background-color:rgba(255,255,255,0.3);
+	background-color:rgba(255,255,255,0.3);
 }
 h1{
 	font-size: 12px;
-
 }
-
-.trackSelect
-{
-	width: 100px;
-	height: 60px;
-	text-align: center;
-	line-height: 50px;
-	background-color: #39bf80;
-	cursor: pointer;
-	font-size: 24px;
-	font-weight: bold;
-}
-
-.trackNow
-{
-	
-	background-color: #30E1F2;
-	
-}
-
-#userInfoDiv{
-	visibility: none;
-
-}
-
-#selectTrackDiv{
-	width: 90%;
-	margin: auto;
-	
-}
-
-#theTable{
-	width:80%;
-	margin: auto;
-}
-
-
 
 body {
   background: #BF3978;
