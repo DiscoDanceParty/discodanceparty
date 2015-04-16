@@ -66,10 +66,32 @@ h1{
 
 .trackSelect
 {
+	width: 100px;
+	height: 60px;
+	text-align: center;
+	line-height: 50px;
 	background-color: #39bf80;
 	cursor: pointer;
 	font-size: 24px;
 	font-weight: bold;
+}
+
+.trackNow
+{
+	
+	background-color: #30E1F2;
+	
+}
+
+#userInfoDiv{
+	visibility: none;
+
+}
+
+#selectTrackDiv{
+	width: 90%;
+	margin: auto;
+	
 }
 
 #theTable{
@@ -121,7 +143,7 @@ body {
   left: 50%;
 }
 
-#audio_position, #display_track{
+#calCount{
 	font-size: 24px;
 	color: #000;
 	font-weight: bold;
