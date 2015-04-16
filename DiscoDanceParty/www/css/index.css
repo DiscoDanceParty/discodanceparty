@@ -63,7 +63,7 @@ div{
     }
 }
 
-
+/*style the options menu in the top left hand corner*/
 #optionsLink{
 	display:block;
 	left:0;
@@ -77,7 +77,7 @@ div{
 	text-decoration:none;
 }
 
-
+/*style the options panel*/
 
 ul{
 	background-color:#27ae60;
@@ -89,6 +89,8 @@ ul li a{
 .list-divider{
 	background-color:rgba(255,255,255,0.3);
 }
+
+
 h1{
 	font-size: 12px;
 }
@@ -99,7 +101,7 @@ body {
   width: 302px;
   text-align: center;
 }
-
+/*CSS3 DiscoBall from http://codepen.io/Lando/pen/dxufJ */
 @-webkit-keyframes hue {
   from {
   
@@ -126,6 +128,7 @@ body {
   margin: auto;
   cursor: pointer;
 }
+/*Little stem hanging down from the celing for our disco ball*/
 .hanger {
   background: #fff;
   width: 3px;
@@ -135,7 +138,7 @@ body {
   top: 0;
   left: 50%;
 }
-
+/*Calorie counter section*/
 #calCount{
 	font-size: 24px;
 	color: #000;
@@ -146,7 +149,7 @@ body {
 	padding:15px;
 	border-radius:16px;
 }
-
+/*Flashing background lights */
 .flash{
 	-webkit-animation-name: flashingAnimation; /* Chrome, Safari, Opera */
 	-webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
@@ -155,7 +158,6 @@ body {
     animation-duration: 2s;
 	animation-iteration-count: infinite;
 }
-
 @-webkit-keyframes flashingAnimation {
     0% {background-color: red;}
     5% {background-color: yellow;}
