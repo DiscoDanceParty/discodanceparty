@@ -41,9 +41,12 @@ C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\
 C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\img\dball.png \
 C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\img\icon.png \
 C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\js\index.js \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\nl.x-services.plugins.insomnia \
 C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.device-motion \
 C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.file \
 C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.media \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\nl.x-services.plugins.insomnia\www \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\nl.x-services.plugins.insomnia\www\Insomnia.js \
 C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.device-motion\www \
 C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.device-motion\www\Acceleration.js \
 C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\assets\www\plugins\org.apache.cordova.device-motion\www\accelerometer.js \

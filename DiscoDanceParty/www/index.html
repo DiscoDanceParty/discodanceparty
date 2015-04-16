@@ -38,6 +38,7 @@
 			var samplingFrequency=50;//Miliseconds between samples
 			var threshold=6;
 			var magnitude;
+			var screenAwake = false;
 			document.addEventListener("deviceready", onDeviceReady, false);
 
 			// device APIs are available
@@ -101,6 +102,10 @@
 					//document.body.setAttribute("style", "background-color:#bf3978;");
 					document.body.setAttribute("class", "flash");
 					playAudio(tracks[selectedTrack]);
+					if (screenAwake === false){
+					window.plugins.insomnia.keepAwake();
+					screenAwake = true;
+					}
 				}
 				
 				else if ( magnitude <= threshold ){
@@ -110,6 +115,10 @@
 						document.body.setAttribute("class", "");
 						document.body.setAttribute("style", "background-color:#D1D1D1;");
 						pauseAudio();
+						if (screenAwake === true){
+						window.plugins.insomnia.allowSleepAgain();
+						screenAwake = false;
+						}
 					}
 				}
 			}
@@ -248,15 +257,8 @@
 		function pauseHandler(){
 			
 			if(my_media){
-				my_media.stop();
-				clearInterval(mediaTimer);
-				mediaTimer = null;
-				my_media = null;
-				resumePosition = 0;
-				setAudioPosition(0);
-				isPlaying = false;
-				isStopped = true;
-				document.body.setAttribute("style", "background-color:#000;");
+				my_media.pause;
+				stopAudio();
 			}
 			stopWatch();
 		}

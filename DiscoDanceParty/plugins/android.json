@@ -19,6 +19,10 @@
                         {
                             "xml": "<feature name=\"Media\"><param name=\"android-package\" value=\"org.apache.cordova.media.AudioHandler\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Insomnia\"><param name=\"android-package\" value=\"nl.xservices.plugins.Insomnia\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -52,6 +56,9 @@
             "PACKAGE_NAME": "com.cs7025.discodanceparty"
         },
         "org.apache.cordova.media": {
+            "PACKAGE_NAME": "com.cs7025.discodanceparty"
+        },
+        "nl.x-services.plugins.insomnia": {
             "PACKAGE_NAME": "com.cs7025.discodanceparty"
         }
     },

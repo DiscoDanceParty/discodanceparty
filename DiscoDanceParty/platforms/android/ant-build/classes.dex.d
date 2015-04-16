@@ -7,6 +7,9 @@ C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\
 C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\classes\com\cs7025\discodanceparty\R$xml.class \
 C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\classes\com\cs7025\discodanceparty\R.class \
 C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\classes\net\yoik\cordova\plugins\screenorientation\YoikScreenOrientation.class \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\classes\nl\xservices\plugins\Insomnia$1.class \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\classes\nl\xservices\plugins\Insomnia$2.class \
+C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\classes\nl\xservices\plugins\Insomnia.class \
 C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\classes\org\apache\cordova\devicemotion\AccelListener$1.class \
 C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\classes\org\apache\cordova\devicemotion\AccelListener.class \
 C:\Users\Neil\Documents\Interactive Digital Media\Programming for Digital Media\discodanceparty\DiscoDanceParty\platforms\android\ant-build\classes\org\apache\cordova\file\ContentFilesystem.class \
