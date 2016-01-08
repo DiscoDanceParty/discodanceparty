@@ -1,2 +1,7 @@
 # discodanceparty
-Repository for all development for disco dance party
+YOU THERE!
+
+DO YOU DESIRE TO DANCE
+
+
+THEN BUILD PLEASE THIS APP AND HAVE BOOGIE!
